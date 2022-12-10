@@ -1,0 +1,13 @@
+To view all the created tags in alphabetical order:
+      git tag
+      git show tag
+
+Create one tag
+      git tag -a v4.0 -m "release version 4.0"
+
+
+How to push a tag
+      git push origin tag
+
+Delete a tag
+      git tag --delete v0.0.2
