@@ -1,0 +1,27 @@
+Display All Commits
+      git log --all
+
+View recent 2 commits
+      git log -2
+
+Filter commit by author
+      git log --author <name>
+      git log --committer <name>
+
+Filter commits by X days
+      git log --before <date>
+      git log --after <date>
+      git log --after 2.days.ago
+
+View by date range
+      git log --after <date>  --before <date>
+      git log --after "2014-02-01" --before "2014-02-02"
+
+View all diff for changes for each commit
+      git log -p
+
+view summary for each commit
+      git log --stat
+
+view one line for each commit
+      git log --oneline
