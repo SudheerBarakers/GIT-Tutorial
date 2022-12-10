@@ -1,0 +1,5 @@
+check information about a file
+      git blame filename
+
+Display 10 to 20 lines
+     git blame -L 10,20 gulpfile.babel.js
