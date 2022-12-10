@@ -1,0 +1,14 @@
+Check the current configuration
+      git config -l
+
+configure user name for git
+      git config --global user.name "Sarah Smith"
+
+configure Email for git
+      git config --global user.email "email"
+
+configure default editor git
+      git config --global core.editor "nano"
+
+configure Alias for git
+      git config --global alias.co commit
