@@ -1,0 +1,5 @@
+How to create a new repository
+        git init
+
+How to create a remote repository
+        git init --bare
