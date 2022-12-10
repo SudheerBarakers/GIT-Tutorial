@@ -1,0 +1,23 @@
+How to revert from Working directory
+      git checkout filename
+      git checkout *
+
+How to discard from staging/index area
+      git reset filename
+      git reset *
+
+How to Revert from Repository
+      git reset HEAD~1
+      git reset HEAD~3
+
+How to remove from All three working/index/Repository
+      git reset HEAD~2 --hard
+
+How to remove from staging and Repository
+      git reset HEAD~3   (By default mode is mixed)
+
+How to remove from Repository only
+      git reset --soft HEAD~2
+
+How to revert from Remote
+      git revert commitid
