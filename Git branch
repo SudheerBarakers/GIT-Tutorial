@@ -1,0 +1,38 @@
+See What Branch You're On
+git status
+
+List All Branches
+      git branch
+
+To view remote branches
+      git branch -r
+
+To view all branches remote and local
+      git branch -a
+
+Create a New Branch
+      git checkout -b my-branch-name
+
+Switch to a Branch In Your Local Repo
+      git checkout my-branch-name
+
+To get a list of all branches from the remote
+      git pull
+
+Push to a Branch
+      git push -u origin my-branch-name
+
+Merge a branch
+      git checkout master
+      git merge feat1
+      git rebase feat1
+
+To delete a remote branch, run this command
+      git push origin --delete my-branch-name
+
+To delete a local branch, run either of these commands
+      git branch -d my-branch-name
+      git branch -D my-branch-name
+
+How to change the default branch name in git
+      git config --global init.defaultBranch {branchName}
