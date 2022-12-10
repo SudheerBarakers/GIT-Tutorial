@@ -1,0 +1,11 @@
+Check remote repo
+      git remote -v
+
+How to add remote repo
+      git remote add 
+
+How to rename remote repo
+      git remote rename [--[no-]progress] <old> <new>
+
+How to remove remote repo
+      git remote remove <name>
