@@ -68,4 +68,4 @@ GitHub
  ** git reset is the command we use when we want to move the repository back to a previous commit, discarding any changes made after that commit
             $ git reset 9a9add8
             
- ** 
+ ** The crontab is used to automate all types of tasks on Linux systems
