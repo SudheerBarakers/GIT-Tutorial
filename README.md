@@ -60,4 +60,12 @@ GitHub
     Unstage a file from the staging area
             $ git restore --staged Names.txt
     
-   
+ ** git stash command saves the previously written code and then goes back to the last commit for a fresh start
+            $ git stash      
+            $ git stash pop  // Bringing back to staging area
+            $ git stash clear
+            
+ ** git reset is the command we use when we want to move the repository back to a previous commit, discarding any changes made after that commit
+            $ git reset 9a9add8
+            
+ ** 
