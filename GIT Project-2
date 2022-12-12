@@ -1,0 +1,37 @@
+Create a Branch in Git
+
+Steps to be followed:
+1.	Create a new repository
+2.	Clone the GitHub repository
+3.	List all the branches in your repository
+4.	Create a new branch
+5.	Verify the creation of the new branch
+6.	Rename an existing branch
+7.	Delete the branch
+8.	Verify the deletion of the branch
+
+
+1. Create a new repository
+    ** Create new repo in Gitbub.com
+    
+2. Clone the GitHub repository
+    $ git clone <New_URL/project>
+    
+3. List all the branches in your repository
+   $ cd project
+   $ git branch
+   
+4. Create a new branch
+   $ git branch New_Branch
+   
+5. Verify the creation of the new branch
+    $ git branch
+    
+6. Rename an existing branch
+    $ git branch -m New_Branch2
+    
+7. Delete the branch
+    $ git branch -d New_Branch2
+    
+8. Verify the deletion of the branch
+    $ git branch
