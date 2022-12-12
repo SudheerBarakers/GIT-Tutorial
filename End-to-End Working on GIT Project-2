@@ -1,0 +1,21 @@
+*** Description:
+ ** Clone/Download code in local, Do the changes and push the code to github repo.
+ 
+ Steps to be follow
+ 
+ 1. Clone the code from central repo (Github) to local repo
+        $ git clone https://github.com/SudheerBarakers/SimplilearnDemo.git
+ 
+ 2. Do changes into code.
+ 
+ 3. Add code from working area to staging area.
+        $ git add *
+        $ git status  ---- To check the status 
+        
+ 5. Commit the changes done in local repo.
+        $ git commit -m "Added lines to project"
+        
+ 6. Push the code to Central repo ( Github ).
+        $ git push origin master
+        
+ 7. Verify the changes in central repo (Github)
