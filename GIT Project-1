@@ -1,0 +1,13 @@
+Create and Clone a GitHub Repository
+
+Steps to be followed:
+1.	Create a new Github repository
+2.	Edit the README file
+3.	Upload a file to the repository
+4.	Clone the Github repository
+
+
+** git clone - git clone is a git command, which creates a clone/copy of an existing repository into a new directory
+      
+      $ git clone < GIT-URL >
+      
