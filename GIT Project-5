@@ -1,0 +1,27 @@
+*** Push file to GitHub Repository ***
+
+Steps to be followed:
+1.	Create a GitHub repository
+2.	Create a repository on the local machine
+3.	Push the changes from the local repository to GitHub
+4.	Check the status of the local and remote repository
+
+
+1. Create a GitHub repository
+    ** Create repo in github.com
+    
+2. Create a repository on the local machine
+      $ mkdir project
+      $ cd project
+      $ echo "Create new file for my project" >> README.md
+      $ git init
+      $ git add README
+      $ git commit -m "File added"
+      
+3. Push the changes from the local repository to GitHub
+      $ git push -u origin main
+      
+4. Check the status of the local and remote repository
+      $ git status
+    *** Go to github.com, and check the remote repository
+      
