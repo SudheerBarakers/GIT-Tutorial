@@ -1,0 +1,21 @@
+*** Description:
+ ** Create a project in local and push the project to github repo.
+ 
+ Steps to be follow
+ 
+ 1. Install git on system ( Windows/Linux)
+ 
+ 2. Create a folder and add project
+ 
+ 3. Make project folder into local repo by initializing git
+        $ git init
+        
+ 4. Add project from working area to staging area.
+        $ git add *
+        $ git status  ---- To check the status 
+        
+ 5. Commit the changes done in local repo.
+        $ git commit -m "Added lines to project"
+        
+ 6. Push the project to Central repo ( Github ).
+        $ git push origin master
