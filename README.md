@@ -128,3 +128,15 @@ GitHub
             
             
  ** The crontab is used to automate all types of tasks on Linux systems
+ 
+** Set your user name and email address, which will be associated with your commits.
+
+            $ git config — global user.name "sudheerbarakers"
+
+            $ git config — global user.email "sudheer.barakers@gmail.com"
+
+** To check the details :
+
+           $ git config — global user.name
+
+           $ git config — global user.email
